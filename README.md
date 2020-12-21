@@ -7,6 +7,6 @@ Front End Software Engineer Interview for Apple Pay
 1. Fetch a to do list of data from https://jsonplaceholder.typicode.com/todos
 2. Create a list of items for each user.
 3. The items should be nested under their associated user.
-4. Items should display their ID and Title
+4. Items should display their ID, Title and Completed Status
 
 [Run on StackBlitz ⚡️](https://stackblitz.com/edit/apple-pay-interview)
