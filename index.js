@@ -1,12 +1,12 @@
 // Import stylesheets
 import "./style.css";
-import { mockData } from "./mock-data.js";
+import { listDataSource, mockData } from "./mock-data.js";
 
 const app = document.getElementById("app");
 
 // Fetch Data for List
-async function getData() {
-  const response = await fetch("https://jsonplaceholder.typicode.com/todos", {
+async function getData(url) {
+  const response = await fetch(url, {
     method: "GET"
   })
     .then(data => {
@@ -22,7 +22,7 @@ async function getData() {
   return response;
 }
 
-getData().then(data =>
+getData(listDataSource).then(data =>
   // use mock data if fetch fails to get data
   data.length > 0 ? createList(data) : createList(mockData)
 );
