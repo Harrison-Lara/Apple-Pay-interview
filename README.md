@@ -9,6 +9,6 @@ Front End Software Engineer Interview for Apple Pay
 3. The items should be nested under their associated user.
 4. Items should display their ID and Title
 
-[Run on StackBlitz ⚡️](https://stackblitz.com/edit/apple-pay)
+[Run on StackBlitz ⚡️](https://stackblitz.com/edit/apple-pay-interview)
 
 Data Source: https://jsonplaceholder.typicode.com/todos
