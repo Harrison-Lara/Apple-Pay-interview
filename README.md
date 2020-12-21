@@ -10,3 +10,6 @@ Front End Software Engineer Interview for Apple Pay
 4. Items should display their ID, Title and Completed Status
 
 [Run on StackBlitz ⚡️](https://stackblitz.com/edit/apple-pay-interview)
+
+## Complexity 
+ - O(n)
